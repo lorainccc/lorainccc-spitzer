@@ -5,7 +5,7 @@
 function add_google_fonts() {
 //wp_enqueue_style( 'open-sans-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic', false );
 //wp_enqueue_style( 'raleway-google-fonts', 'https://fonts.googleapis.com/css?family=Raleway:400,700', false );
-wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:300,400,500,500i,600i,700', false );
+ wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Playfair+Display:700,700i', false );
 }
 
 add_action( 'wp_enqueue_scripts', 'add_google_fonts' );
@@ -39,7 +39,7 @@ function lorainccc_subsite_foundation_scripts() {
 add_action( 'wp_enqueue_scripts', 'lorainccc_subsite_foundation_scripts' );
 
 function lorainccc_subsite_scripts() {
-	wp_enqueue_style( 'lorainccc_subsite-style', get_stylesheet_directory_uri() . '/css/style.css');
+	wp_enqueue_style( 'lorainccc_subsite-style', get_stylesheet_directory_uri() . '/style.css');
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
