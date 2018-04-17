@@ -35,7 +35,7 @@ $facebook_url = get_field('facebook_url', 'option');
 						
 							<div class="small-12 medium-4 columns">
 							
-								<img class="footer-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Spitzer-Conference-Center-Logo-White.png" alt="Lorain County Community College" width="335" height="108"/>
+								<img class="footer-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Spitzer-Conference-Center-Logo-White.png" alt="Lorain County Community College" width="254" height="82"/>
 								
 								<?php if( $twitter_url || $instagram_url || $facebook_url ) : ?>
 								
