@@ -261,6 +261,27 @@ function campana_edit_widget_output( $output ) {
 add_filter( 'dynamic_sidebar_params', 'campana_edit_widget_output' );
 
 
+/**
+ * Extend WordPress search to include custom fields
+ *
+ * https://adambalee.com
+ */
+
+/**
+ * Join posts and postmeta tables
+ *
+ * http://codex.wordpress.org/Plugin_API/Filter_Reference/posts_join
+ */
+function cf_search_join( $join ) {
+    global $wpdb;
+
+    if ( is_search() ) {    
+        $join .=' LEFT JOIN '.$wpdb->postmeta. ' ON '. $wpdb->posts . '.ID = ' . $wpdb->postmeta . '.post_id ';
+    }
+
+    return $join;
+}
+add_filter('posts_join', 'cf_search_join' );
 
 
 // Hide content editor for certain pages/templates
