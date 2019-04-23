@@ -35,7 +35,7 @@ $facebook_url = get_field('facebook_url', 'option');
 						
 							<div class="small-12 medium-4 columns">
 							
-								<img class="footer-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Spitzer-Conference-Center-Logo-White.png" alt="Lorain County Community College" width="254" height="82"/>
+								<img class="footer-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Spitzer-Conference-Center-Logo-White.png" alt="Spitzer Conference Center of Lorain County Community College" width="254" height="82"/>
 								
 								<?php if( $twitter_url || $instagram_url || $facebook_url ) : ?>
 								
@@ -45,19 +45,19 @@ $facebook_url = get_field('facebook_url', 'option');
 								
 									<?php if( $facebook_url ) : ?>
 									
-									<li><a href="<?php echo $facebook_url; ?>" title="Follow [insert name] on Facebook" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/facebook_white.svg" alt="Facebook icon" height="30" width="30" /></a></li>
+									<li><a href="<?php echo $facebook_url; ?>" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/facebook_white.svg" alt="Follow Spitzer Conference Center on Facebook" height="30" width="30" /></a></li>
 									
 									<?php endif; 
 									
 									if( $twitter_url ) : ?>
 									
-									<li><a href="<?php echo $twitter_url; ?>" title="Follow [insert name] on Twitter" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/twitter_white.svg" alt="Twitter icon" height="30" width="30" /></a></li>
+									<li><a href="<?php echo $twitter_url; ?>" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/twitter_white.svg" alt="Follow Spitzer Conference Center on Twitter" height="30" width="30" /></a></li>
 									
 									<?php endif; 
 									
 									if( $instagram_url ) : ?>
 									
-									<li><a href="<?php echo $instagram_url; ?>" title="Follow [insert name] on Instagram" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/instagram_white.svg" alt="Instagram icon" height="30" width="30" /></a></li>
+									<li><a href="<?php echo $instagram_url; ?>" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/instagram_white.svg" alt="Follow Spitzer Conference Center on Instagram" height="30" width="30" /></a></li>
 									
 									<?php endif; ?>
 									

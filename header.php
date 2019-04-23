@@ -32,7 +32,7 @@
 				
 				<div id="page" class="hfeed site">
 
-					<a class="skip-link screen-reader-text hide-for-print" href="#content"><?php esc_html_e( 'Skip to content', 'lccc-framework' ); ?></a>
+					<a class="show-on-focus hide-for-print" href="#content"><?php esc_html_e( 'skip to content', 'lccc-framework' ); ?>Skip to Content</a>
 
 					<header id="masthead" class="site-header" role="banner">
 
