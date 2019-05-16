@@ -122,6 +122,9 @@ require get_stylesheet_directory() . '/inc/jetpack.php';
 
 /* Menu Functions */
 
+/* Adding Editor Style Support */
+
+add_editor_style( 'css/editor-style.css' );
 
 /* End Menu Functions */
 // CHANGE EXCERPT LENGTH FOR DIFFERENT POST TYPES
