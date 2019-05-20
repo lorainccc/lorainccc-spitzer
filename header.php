@@ -32,7 +32,7 @@
 				
 				<div id="page" class="hfeed site">
 
-					<a class="show-on-focus hide-for-print" href="#content"><?php esc_html_e( 'skip to content', 'lccc-framework' ); ?>Skip to Content</a>
+					<a class="show-on-focus hide-for-print" href="#content"><?php esc_html_e( 'skip to content', 'lccc-framework' ); ?></a>
 
 					<header id="masthead" class="site-header" role="banner">
 
@@ -40,4 +40,4 @@
 
 					</header><!-- #masthead -->
 
-					<div id="content" class="site-content">
+					<div id="content" tabindex="0" class="site-content">
