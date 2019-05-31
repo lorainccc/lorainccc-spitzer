@@ -62,7 +62,7 @@
 							
 			<div class="large-1 columns">
 								
-				<img class="search-close" src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/search-close.svg" height="35" width="35" alt="close search box" data-toggle="search-container" />
+				<button><img class="search-close" src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/search-close.svg" height="35" width="35" alt="close search box" data-toggle="search-container" /></button>
 							
 			</div>
 						
