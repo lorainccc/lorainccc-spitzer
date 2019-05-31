@@ -40,7 +40,7 @@
 		
 		<div class="top-bar-right float-right offcanvas-top-bar hide-for-large text-right">
 		
-			<button class="menu-icon dark" type="button" data-toggle="offCanvas"></button>
+			<button class="menu-icon dark" type="button" data-toggle="offCanvas">Main Menu and Search</button>
 			
 		</div>
 		
