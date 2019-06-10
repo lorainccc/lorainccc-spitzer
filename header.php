@@ -17,6 +17,7 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+    <a class="show-on-focus hide-for-print" href="#content"><?php esc_html_e( 'skip to content', 'lccc-framework' ); ?></a>
 	
 	<div class="off-canvas-wrapper">
 	
@@ -31,8 +32,6 @@
 			<div class="off-canvas-content" data-off-canvas-content>
 				
 				<div id="page" class="hfeed site">
-
-					<a class="show-on-focus hide-for-print" href="#content"><?php esc_html_e( 'skip to content', 'lccc-framework' ); ?></a>
 
 					<header id="masthead" class="site-header" role="banner">
 
