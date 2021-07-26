@@ -15,8 +15,9 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php wp_head(); ?>
-</head>
+</head>   
 <body <?php body_class(); ?>>
+<a class="show-on-focus hide-for-print" href="#content"><?php esc_html_e( 'skip to content', 'lccc-framework' ); ?></a>
 	
 	<div class="off-canvas-wrapper">
 	
@@ -32,12 +33,10 @@
 				
 				<div id="page" class="hfeed site">
 
-					<a class="show-on-focus hide-for-print" href="#content"><?php esc_html_e( 'skip to content', 'lccc-framework' ); ?>Skip to Content</a>
-
 					<header id="masthead" class="site-header" role="banner">
 
 						<?php get_template_part( 'template-parts/nav', 'topbar' ); ?>
 
 					</header><!-- #masthead -->
 
-					<div id="content" class="site-content">
+					<div id="content" tabindex="0" class="site-content">
