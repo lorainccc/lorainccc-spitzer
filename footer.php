@@ -64,7 +64,11 @@ $facebook_url = get_field('facebook_url', 'option');
 								</ul>
 								
 								<?php endif; ?>
-							
+								<?php if($_GET['siteurl'] == ''){ ?>
+     <p class="website-feedback">
+      <a href="/website-feedback?siteurl=<?php echo 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" title="" target="_blank">Feedback about this page</a>
+     </p>
+     <?php } ?>
 							</div>
 							
 							<div class="small-12 medium-4 columns">
