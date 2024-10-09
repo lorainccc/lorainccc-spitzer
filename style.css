@@ -60,7 +60,8 @@ Section 2: Content
 */h1,h2,h3,h4,h5{font-family:"Frank Ruhl Libre",sans-serif;font-weight:400;line-height:110%}
 h2{font-size:1.9375rem;color:#2d2d2d}h3{font-size:1.5rem;font-weight:500;color:#a81f17}
 h4{font-size:1.25rem;color:#2d2d2d}p{font-size:1.125rem;font-family:"Open Sans",sans-serif}
-a:not(.button),a:not(.button):hover{color:#a81f17}ul,ol,dl{list-style-position:inside !important}
+a:not(.button){color:#a81f17;text-decoration:underline}ul,ol,dl{list-style-position:inside !important}
+a:not(.button):hover{color:#a81f17;text-decoration:underline;font-weight:bold}ul,ol,dl{list-style-position:inside !important}}
 .button{font-family:"Frank Ruhl Libre",sans-serif;font-size:1rem;font-weight:700}
 .button:not(.hollow){background-color:#a6792c;-webkit-transition:background-color .25s ease-out,color .25s ease-out;transition:background-color .25s ease-out,color .25s ease-out}
 .button:not(.hollow):hover{background-color:#966e29}.read-more{font-weight:700;color:#0055a4}
@@ -191,9 +192,9 @@ Section 5: Navigation
 */.no-js .top-bar{display:none}
 .menu .active>a{background:0}.is-dropdown-submenu{background-color:#fefefe;border:0;-webkit-box-shadow:0 2px 3px rgba(10,10,10,0.25),-3px 2px 4px rgba(10,10,10,0.25),3px 2px 4px rgba(10,10,10,0.25);box-shadow:0 2px 3px rgba(10,10,10,0.25),-3px 2px 4px rgba(10,10,10,0.25),3px 2px 4px rgba(10,10,10,0.25)}
 .is-dropdown-submenu li{background:#fefefe}.is-dropdown-submenu li a{padding:1.25rem 1rem;font-size:.9375rem;color:#a81f17}
-.is-dropdown-submenu li:hover{background:#f2dfde}.top-nav-container>div>.menu:not(.is-dropdown-submenu)>li>a{font-size:1.048125rem;color:#a81f17}
+.is-dropdown-submenu li:hover{background:#f2dfde}.top-nav-container>div>.menu:not(.is-dropdown-submenu)>li>a{font-size:1.048125rem;color:#a81f17;text-decoration:none}
 .top-nav-container>div>.menu:not(.is-dropdown-submenu)>li:last-child>a{padding-right:0}
-.main-nav-container>div>.menu:not(.is-dropdown-submenu)>li>a{font-size:1.072rem;font-weight:700;color:#2d2d2d;padding-left:.7rem;padding-right:.7rem}
+.main-nav-container>div>.menu:not(.is-dropdown-submenu)>li>a{font-size:1.072rem;font-weight:700;color:#2d2d2d;text-decoration:none;padding-left:.7rem;padding-right:.7rem}
 .main-nav-container>div>.menu:not(.is-dropdown-submenu)>li.is-dropdown-submenu-parent>a::after{display:none}
 .main-nav-container>div>.menu:not(.is-dropdown-submenu)>li:last-child a{padding-right:0}
 .main-nav-container>div>.menu:not(.is-dropdown-submenu)>li:first-child>a{padding-left:0}
