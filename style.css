@@ -60,7 +60,7 @@ Section 2: Content
 */h1,h2,h3,h4,h5{font-family:"Frank Ruhl Libre",sans-serif;font-weight:400;line-height:110%}
 h2{font-size:1.9375rem;color:#2d2d2d}h3{font-size:1.5rem;font-weight:500;color:#a81f17}
 h4{font-size:1.25rem;color:#2d2d2d}p{font-size:1.125rem;font-family:"Open Sans",sans-serif}
-a:not(.button){color:#a81f17;text-decoration:underline}ul,ol,dl{list-style-position:inside !important}
+a:not(.button){color:#a81f17;font-weight:bold}ul,ol,dl{list-style-position:inside !important}
 a:not(.button):hover{color:#a81f17;text-decoration:underline;font-weight:bold}ul,ol,dl{list-style-position:inside !important}}
 .button{font-family:"Frank Ruhl Libre",sans-serif;font-size:1rem;font-weight:700}
 .button:not(.hollow){background-color:#a6792c;-webkit-transition:background-color .25s ease-out,color .25s ease-out;transition:background-color .25s ease-out,color .25s ease-out}
@@ -140,7 +140,7 @@ a:not(.button):hover{color:#a81f17;text-decoration:underline;font-weight:bold}ul
 .alternating-row-wrapper>div .section-divider{height:1px;background:#cacaca}.alternating-row{-webkit-box-sizing:border-box;box-sizing:border-box}
 .alternating-row h3{font-size:1.3125rem;font-weight:700;color:#a6792c;margin-bottom:.3rem}
 .sidebar-widget:not(:first-child){margin-top:2rem}.sidebar-widget:not(:last-child){margin-bottom:2rem}
-.sidebar-widget ul{margin:0;list-style-type:none}.sidebar-widget ul li a{font-family:"Frank Ruhl Libre",sans-serif;font-size:1rem;font-weight:600;text-decoration:underline;color:#a81f17;padding:.25rem 0;display:block}
+.sidebar-widget ul{margin:0;list-style-type:none}.sidebar-widget ul li a{font-family:"Frank Ruhl Libre",sans-serif;font-size:1rem;font-weight:600;font-weight:bold;color:#a81f17;padding:.25rem 0;display:block}
 .sidebar-cta,.sidebar-cta p{font-size:1rem}.blog-archive-item h2,.events-archive-item h2{font-size:1.8125rem;font-weight:500;margin-bottom:0}
 .blog-archive-item h2 a,.blog-archive-item h2 a:hover,.events-archive-item h2 a,.events-archive-item h2 a:hover{color:#2d2d2d}
 .blog-archive-item:not(:last-child),.events-archive-item:not(:last-child){padding-bottom:1.5rem;border-bottom:1px solid #cacaca}
@@ -192,13 +192,14 @@ Section 5: Navigation
 */.no-js .top-bar{display:none}
 .menu .active>a{background:0}.is-dropdown-submenu{background-color:#fefefe;border:0;-webkit-box-shadow:0 2px 3px rgba(10,10,10,0.25),-3px 2px 4px rgba(10,10,10,0.25),3px 2px 4px rgba(10,10,10,0.25);box-shadow:0 2px 3px rgba(10,10,10,0.25),-3px 2px 4px rgba(10,10,10,0.25),3px 2px 4px rgba(10,10,10,0.25)}
 .is-dropdown-submenu li{background:#fefefe}.is-dropdown-submenu li a{padding:1.25rem 1rem;font-size:.9375rem;color:#a81f17}
-.is-dropdown-submenu li:hover{background:#f2dfde}.top-nav-container>div>.menu:not(.is-dropdown-submenu)>li>a{font-size:1.048125rem;color:#a81f17;text-decoration:none}
+.is-dropdown-submenu li:active{background-color:#f6e8e7}
+.is-dropdown-submenu li:hover{text-decoration:underline}.top-nav-container>div>.menu:not(.is-dropdown-submenu)>li>a{font-size:1.048125rem;color:#a81f17;}
 .top-nav-container>div>.menu:not(.is-dropdown-submenu)>li:last-child>a{padding-right:0}
-.main-nav-container>div>.menu:not(.is-dropdown-submenu)>li>a{font-size:1.072rem;font-weight:700;color:#2d2d2d;text-decoration:none;padding-left:.7rem;padding-right:.7rem}
+.main-nav-container>div>.menu:not(.is-dropdown-submenu)>li>a{font-size:1.072rem;font-weight:700;color:#2d2d2d;padding-left:.7rem;padding-right:.7rem}
 .main-nav-container>div>.menu:not(.is-dropdown-submenu)>li.is-dropdown-submenu-parent>a::after{display:none}
 .main-nav-container>div>.menu:not(.is-dropdown-submenu)>li:last-child a{padding-right:0}
 .main-nav-container>div>.menu:not(.is-dropdown-submenu)>li:first-child>a{padding-left:0}
-.main-nav-container>div .menu .active>a{color:#a81f17 !important}.off-canvas{height:100%;background-color:#2d2d2d}
+.main-nav-container>div .menu .active>a{background-color:#eaeaea;color:#2d2d2d !important}.off-canvas{height:100%;background-color:#2d2d2d}
 .off-canvas .menu li a{font-family:"Frank Ruhl Libre",sans-serif;font-weight:600;color:#fefefe;padding-top:1rem;padding-bottom:1rem;border-bottom:1px solid #616161}
 .off-canvas .menu li a:hover{text-decoration:none}.off-canvas .menu li a::after{border-top-color:#fefefe}
 .off-canvas .menu li .submenu li a{padding-left:2rem;font-weight:500}.off-canvas .menu li .submenu li a::before{content:"-"}
