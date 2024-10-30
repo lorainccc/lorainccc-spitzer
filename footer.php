@@ -112,6 +112,20 @@ $facebook_url = get_field('facebook_url', 'option');
 	</div> <!-- end .off-canvas-wrapper -->
 	
 <?php wp_footer(); ?>
+<?php
+  switch($_SERVER['SERVER_ADDR']){
+    case "172.25.1.201":
+      echo "<!-- Prod 1a | 24.04-->";
+    break;
 
+    case "172.25.7.211":
+      echo "<!-- Prod 1b | 24.04-->";
+    break;
+
+    default:
+      echo $_SERVER['SERVER_ADDR'];
+    break;
+  }
+?>
 </body>
 </html>

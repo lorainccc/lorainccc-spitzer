@@ -167,7 +167,7 @@ aside h2,.ss-sidebar h2{font-weight:500 !important}.comments-title{font-weight:5
 .pagination-wrapper .pagination .nav-links span.current{background:#003b76}.pagination-wrapper .pagination .nav-links a.next,.pagination-wrapper .pagination .nav-links a.prev{color:#0055a4}
 .pagination-wrapper .pagination .nav-links a.next:hover,.pagination-wrapper .pagination .nav-links a.prev:hover{background:0}
 .pagination-wrapper .pagination .nav-links a:not(.next):not(.prev){color:#2d2d2d}
-.orbit .orbit-bullets button{background-color:#e4d6bf}.orbit .orbit-bullets button.is-active{background-color:#4b7d2f}
+.orbit .orbit-bullets button{background-color:#e4d6bf}.orbit .orbit-bullets button.is-active{background-color:#4b7d2f}iframe#braintree-hosted-field-number{height: 30px !important;}.gform_wrapper.gravity-theme .ginput_container_custom_card_fields .ginput_card_field{height: 35px!important;padding: 2px 4px!important;}
 /*!
 Section 3: Body
 */body{font-family:"Open Sans",sans-serif}
