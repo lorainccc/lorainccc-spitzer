@@ -370,10 +370,10 @@ ul, ol, dl {
   font-size: 1rem;
   font-weight: 700; }
   .button:not(.hollow) {
-    background-color: #a6792c;
+    background-color: #4b7d2f;
     transition: background-color 0.25s ease-out, color 0.25s ease-out; }
     .button:not(.hollow):hover {
-      background-color: #966e29; }
+      background-color: #406c28; }
 
 .read-more {
   font-weight: 700;
@@ -572,7 +572,7 @@ main a:not(.button):hover {
 #visit-spitzer .location-info h3, #contact .location-info h3 {
   font-size: 1.3125rem;
   font-weight: 700;
-  color: #a6792c; }
+  color: #4b7d2f; }
 #visit-spitzer .location-info .span-block, #contact .location-info .span-block {
   display: block; }
 #visit-spitzer .location-info .map-container, #contact .location-info .map-container {
@@ -594,10 +594,10 @@ main a:not(.button):hover {
   font-size: 1rem;
   font-weight: 700; }
   #visit-spitzer .gform_wrapper .gform_footer input.button:not(.hollow), #visit-spitzer .gform_wrapper .gform_footer input[type=submit]:not(.hollow), #visit-spitzer .gform_wrapper .gform_page_footer input.button:not(.hollow), #visit-spitzer .gform_wrapper .gform_page_footer input[type=submit]:not(.hollow), #contact .gform_wrapper .gform_footer input.button:not(.hollow), #contact .gform_wrapper .gform_footer input[type=submit]:not(.hollow), #contact .gform_wrapper .gform_page_footer input.button:not(.hollow), #contact .gform_wrapper .gform_page_footer input[type=submit]:not(.hollow) {
-    background-color: #a6792c;
+    background-color: #4b7d2f;
     transition: background-color 0.25s ease-out, color 0.25s ease-out; }
     #visit-spitzer .gform_wrapper .gform_footer input.button:not(.hollow):hover, #visit-spitzer .gform_wrapper .gform_footer input[type=submit]:not(.hollow):hover, #visit-spitzer .gform_wrapper .gform_page_footer input.button:not(.hollow):hover, #visit-spitzer .gform_wrapper .gform_page_footer input[type=submit]:not(.hollow):hover, #contact .gform_wrapper .gform_footer input.button:not(.hollow):hover, #contact .gform_wrapper .gform_footer input[type=submit]:not(.hollow):hover, #contact .gform_wrapper .gform_page_footer input.button:not(.hollow):hover, #contact .gform_wrapper .gform_page_footer input[type=submit]:not(.hollow):hover {
-      background-color: #966e29; }
+      background-color: #406c28; }
 
 #contact h2 {
   font-size: 1.8125rem;
@@ -785,7 +785,7 @@ main a:not(.button):hover {
   display: inline-block;
   padding: 0 .5rem .25rem;
   color: #fefefe;
-  border-bottom: 2px solid #a6792c; }
+  border-bottom: 2px solid #4b7d2f; }
 #home-cards .card .front {
   position: relative; }
   #home-cards .card .front .front-title {
@@ -865,7 +865,7 @@ main a:not(.button):hover {
   font-weight: 500;
   font-size: 1.5rem;
   padding: 0 .5rem .25rem;
-  border-bottom: 2px solid #a6792c;
+  border-bottom: 2px solid #4b7d2f;
   color: #2d2d2d;
   margin-bottom: 1.25rem; }
 #community .community-column .column-inner {
@@ -1006,7 +1006,7 @@ main a:not(.button):hover {
   color: #a81f17; }
 .overview-features h4 {
   font-size: 1.25rem;
-  color: #a6792c; }
+  color: #4b7d2f; }
 .overview-features p {
   margin-bottom: 0; }
 .overview-features .feature {
@@ -1046,7 +1046,7 @@ main a:not(.button):hover {
   font-weight: 700;
   font-size: 1.5625rem;
   text-transform: none;
-  color: #a6792c;
+  color: #4b7d2f;
   margin-top: 1.25rem;
   margin-bottom: 0; }
 
@@ -1086,7 +1086,7 @@ main a:not(.button):hover {
   .alternating-row h3 {
     font-size: 1.3125rem;
     font-weight: 700;
-    color: #a6792c;
+    color: #4b7d2f;
     margin-bottom: .3rem; }
   @media screen and (max-width: 39.9375em) {
     .alternating-row img {
@@ -1176,10 +1176,10 @@ main a:not(.button):hover {
   margin-bottom: .5rem; }
   .post-taxonomies a, .event-taxonomy-links a {
     font-weight: 600;
-    color: #a6792c; }
+    color: #4b7d2f; }
     .post-taxonomies a:hover, .event-taxonomy-links a:hover {
       text-decoration: underline;
-      color: #a6792c; }
+      color: #4b7d2f; }
 
 .blog-single-inner {
   padding-top: 2rem;
@@ -1273,7 +1273,7 @@ aside h2, .ss-sidebar h2 {
   margin-bottom: .5rem;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  color: #a6792c; }
+  color: #4b7d2f; }
 .event-social-sharing .menu > li > a {
   padding: 0;
   margin-right: .5rem; }
@@ -1315,7 +1315,7 @@ aside h2, .ss-sidebar h2 {
 .orbit .orbit-bullets button {
   background-color: #e4d6bf; }
   .orbit .orbit-bullets button.is-active {
-    background-color: #a6792c; }
+    background-color: #4b7d2f; }
 
 /*!
 Section 3: Body

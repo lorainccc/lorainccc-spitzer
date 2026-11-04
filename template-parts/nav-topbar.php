@@ -29,8 +29,12 @@
 			<div class="main-nav-container clearfix">
 			
 				<div class="float-right">
+
+				<nav id="lc_main_nav" role="region" aria-label="main menu">
 				
 					<?php spitzer_main_nav(); ?>
+
+				</nav>
 										
 				</div>
 							
