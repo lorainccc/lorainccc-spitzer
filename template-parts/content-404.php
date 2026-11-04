@@ -151,7 +151,7 @@ if( have_rows('flexible_content_layouts', 'option') ) :
 			
 				<div class="small-12 columns">
 					
-					<div class="orbit" role="region" aria-label="<?php echo $orbit_desc; ?>" data-options="animInFromLeft:<?php echo $in_left; ?>; animInFromRight:<?php echo $in_right; ?>; animOutToLeft:<?php echo $out_left; ?>; animOutToRight:<?php echo $out_right; ?>;" data-auto-play="<?php echo $auto; ?>" data-timer-delay="<?php echo $delay ?>" data-orbit>
+					<div class="orbit" role="region" aria-label="gallery" data-options="animInFromLeft:<?php echo $in_left; ?>; animInFromRight:<?php echo $in_right; ?>; animOutToLeft:<?php echo $out_left; ?>; animOutToRight:<?php echo $out_right; ?>;" data-auto-play="<?php echo $auto; ?>" data-timer-delay="<?php echo $delay ?>" data-orbit>
 					
 						<div class="orbit-wrapper">
 						
